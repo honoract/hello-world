@@ -1,0 +1,17 @@
+List
+ToUpper();
+
+23-07-2020
+
+ToUpper();
+
+Is a method you can invoke on a string, like the name variable. It will return the same string, converted to uppercase.
+
+EXAMPLE
+
+var name = "Honoract";
+Console.WriteLine($"Hello {name.ToUpper()} !");
+
+CONSOLE
+
+Hello HONORACT !
