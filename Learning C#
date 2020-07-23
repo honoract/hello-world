@@ -1,0 +1,28 @@
+This is my learning process of my first language, that is C#
+I've picked C# because my goal is to become a Game Developer, and this language in my point of view is the best one
+
+
+23-07-2020
+
+https://dotnet.microsoft.com/learn/dotnet/in-browser-tutorial/4
+
+String interpolation
+
+Code1
+var name = "Honoract";
+Console.WriteLine("Hello " + name + "!");
+
+Code2
+var name = "Honoract";
+Console.WriteLine($"Hello {name}!")
+
+Code1 = Code2
+If you add a $ before the opening quotes of the string, you can then include string values,
+like the name variable, inside the string in curly brackets. Try it out and select Run Code.
+Curly brackets -> {var}
+You can code in both ways, but using the interpolation with the dollar sign($) makes the code easier to read.
+
+Methods
+
+Methods take inputs, do some work, and sometimes return a result.
+ToUpper() is a method you can invoke on a string, like the name variable. It will return the same string, converted to uppercase.
